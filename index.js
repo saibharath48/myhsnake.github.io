@@ -112,6 +112,7 @@ else{
 }
 
 window.requestAnimationFrame(main);
+
 window.addEventListener('keydown',e =>{
     inputDir={x: 0, y: 1}  // game start
     moveSound.play();
@@ -143,3 +144,36 @@ window.addEventListener('keydown',e =>{
             break;
     }
 });
+
+function button(index)
+{
+    inputDir={x: 0, y: 1}  // game start
+    moveSound.play();
+    switch (index) {
+        case 1:
+            console.log("ArrowUp");
+            inputDir.x = 0;
+            inputDir.y = -1;
+            break;
+
+        case 3:
+            console.log("ArrowDown");
+            inputDir.x = 0;
+            inputDir.y = 1;
+            break;
+            gridRowStart
+        case 2:
+            console.log("ArrowLeft");
+            inputDir.x = -1;
+            inputDir.y = 0;
+            break;
+
+        case 4:
+            console.log("ArrowRight");
+            inputDir.x = 1;
+            inputDir.y = 0;
+            break;
+        default:
+            break;
+    }
+}

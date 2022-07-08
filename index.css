@@ -57,3 +57,14 @@
     border: .25vmin solid black;
     border-radius: 8px;
 }
+#upper{
+    position: fixed;
+    bottom: 17.5%;
+    left: 50%;
+}
+#middle{
+    position: fixed;
+    bottom: 10%;
+    display: inline;
+    left: 47.5%;
+}
