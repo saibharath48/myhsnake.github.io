@@ -80,7 +80,12 @@
 
 @media only screen and (max-width:850px){
     .button-block{
-        bottom: 10%;
-        right: 30%;
+        bottom: 2%;
+        right: 15%;
+    }
+    .col{
+        height: 20vmin;
+        width: 20vmin;
+        border-radius: 25%;
     }
 }
